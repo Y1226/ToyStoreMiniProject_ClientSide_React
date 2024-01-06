@@ -1,0 +1,242 @@
+.MainNavbar {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+img {
+    float: left;
+    height: 40px;
+    margin: 0.5%;
+}
+
+.navbarText {
+    float: left;
+    color: white;
+    text-decoration: none;
+    margin: 1% 2%;
+}
+
+.signIn {
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin: 1% 1%;
+}
+
+.LogIn_or_CreateAccount {
+    height: 700px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 1%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    margin-top: 5%;
+}
+
+.LogIn_or_CreateAccount_header {
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.Login {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 102, 255);
+    font-weight: bold;
+    text-decoration: none;
+    /* border-bottom: 2px solid rgb(255, 102, 255); */
+}
+
+.LogInComponent {
+    height: 90%;
+    width: 90%;
+    margin-bottom: 0px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+}
+
+.LoginButton {
+    width: 100%;
+    background-color: rgb(255, 102, 255);
+    color: white;
+    font-weight: bold;
+    border: 5px solid rgb(255, 102, 255);
+    border-radius: 1%;
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+.managerButton {
+    width: 45%;
+    background-color: rgb(65, 67, 160);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+.homePageProductDivs {
+    height: 30%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 10%;
+
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+
+    /* display: inline-block; */
+    float: left;
+    text-align: center;
+
+    /* margin: auto; */
+    margin: 5% 1%;
+}
+
+.productImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+.tableDiv {
+    width: 75%;
+    margin: auto;
+}
+
+.form-control:focus {
+    border-color: #4143a0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 102, 255);
+}
+
+.cart {
+    border: 1px solid black;
+    width: 10%;
+    /* height: 100px; */
+}
+
+/* ========================checkout=============================== */
+/*body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }*/
+
+/* .row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; 
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; 
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  } */
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  /* @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  } */
