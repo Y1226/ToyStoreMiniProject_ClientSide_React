@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Game Store Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project was created as part of a school assignment to learn full stack development. The primary objective was to develop a game store with both customer and administrator interfaces, focusing on the correct handling of data between the database, backend, and frontend.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+### General Requirements
+- **Neat and clear code**
+- **Use of Bootstrap for design**
 
-### `npm start`
+### Project Structure
+- **Front-end:** React
+- **Redux Setup:**
+  - `Reducers` folder with parallel controllers
+  - `Actions` folder with actions corresponding to each controller
+  - `Axios` folder with functions for each controller
+  - `store.js` file
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Interfaces
+#### Client Side
+1. **Customer Interface (User)**
+2. **Manager Interface (Administrator)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Pages and Features
+1. **Home Page**
+   - Displays a list of games.
+   - Menu includes admin login for added capabilities.
 
-### `npm test`
+2. **Admin Interface**
+   - **Game List:** Options to add, update, and delete games.
+   - **Category List:** Options to add, update, and delete categories.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **In-Store Customer Interface**
+   - **View Games:** 
+     - "Add to Basket" button
+     - "More Details" button (partial information shown; full details on route)
+   - **Shopping Cart:** 
+     - Variables: Game code, game name, quantity (initially 1), unit price, final price
+     - Actions to add and remove items, adjust quantity
+     - Final purchase sent to server upon completion
 
-### `npm run build`
+4. **Additional Features**
+   - **View Shopping Cart:** Display items with options to adjust quantity.
+   - **Complete Purchase:** 
+     - Simulate final payment
+     - User registration if not existing
+     - Customer information validation
+     - Display final amount
+     - Save purchase on the server
+   - **Registration:** If customer does not exist, they are prompted to register.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Component Mapping
+- **Main Menu**
+  - **Home**
+    - **View Game Details**
+  - **Games List (Administrator)**
+    - **Add/Edit Game**
+  - **Categories List**
+    - **Add/Edit Category**
+  - **Cart**
+  - **Identification**
+    - **Name and Password Reception**
+    - **Enrollment**
+    - **Receive Payment Information**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Navigation Menu
+- Home
+- Register (Includes all details)
+- Connect
+- Games List (Principal)
+- Admin Categories List
+- Cart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Focus
+The project emphasized the correct transmission of data from the database to the backend and then displaying it in the frontend, ensuring the full cycle operates properly. Design and aesthetics were secondary to functional correctness.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Outcome
+The project was submitted and received a high mark, reflecting the correctness and efficiency of the implemented features.
