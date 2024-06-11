@@ -68,7 +68,7 @@ This project was created as part of a school assignment to learn full stack deve
 - Home
 - Register (Includes all details)
 - Connect
-- Games List (Principal)
+- Games List (Administrator)
 - Admin Categories List
 - Cart
 
